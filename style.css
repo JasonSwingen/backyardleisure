@@ -530,9 +530,11 @@ FLOATSWRAP
 }
 .blog_post .teaser {
 	padding:0;
+	font-size: 1.3em;
 }
 .blog_post .teaser p {
 	margin-bottom:18px;
+	line-height: 1.5;
 }
 .blog_post .meta {
 	padding-bottom:18px;
@@ -546,6 +548,7 @@ FLOATSWRAP
 }
 .blog_post .thumb_img {
 	margin:0 18px 18px 0;
+	float:right;
 }
 /*on single pages*/
 .single_blog_post {
