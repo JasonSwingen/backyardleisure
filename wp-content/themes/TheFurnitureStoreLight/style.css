@@ -769,7 +769,8 @@ THE SINGLE PRODUCT PAGE
 .prodDetails {
 	position:relative;
 	float:right;
-	width:535px;
+	width:515px;
+	margin-right:30px;
 }
 .narrow .prodDetails {
 	width:345px;
@@ -822,6 +823,7 @@ THE SINGLE PRODUCT PAGE
 }
 .imgSection .c_box .contentWrap {
 	border:0 none;
+	box-shadow: 15px 15px 40px -20px black;
 }
 /*Magic Zoom effect - the zoom window*/
 #zoom1-big {
