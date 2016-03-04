@@ -1,0 +1,32 @@
+/*   
+Theme Name: TheFurnitureStore
+Theme URI: http://thefurniturestore.sarah-neuber.de
+Description: A Wordpress ecommerce Theme
+Author: Sarah Neuber
+Author URI: http://www.sarah-neuber.de
+Version: 1.0.7a
+Copyright (c) 2009 Sarah Neuber
+Tags: ecommerce, online shop, member area, wishlist
+*/
+@import url('css/reset.css');
+@import url('css/basic.css');
+#blue-bg{padding-right:5px;}
+#blue-bg ul{
+	float:left;
+	width:175px;
+	margin:0px !important;
+	padding:0px;
+	background-color:#31b734;	
+}
+#blue-bg ul li{
+	margin:0px;
+	border-bottom:1px solid #248d46;
+	padding:5px 0 5px 0px;
+	width:175px;	
+}
+#blue-bg ul li a{
+	font-weight:bold;
+	color:#FFF;
+	font-size:12px;
+	padding:5px;	
+}
