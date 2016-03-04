@@ -27,6 +27,9 @@ body {
 	color:#000; /*JS - changed from #666 to #000*/
 	background:url(http://spapoolbilliards.com/wp-content/uploads/Water_Background1.jpg) no-repeat top center fixed;
 }
+p {
+	line-height: 1.5;
+}
 #pg_wrap {
 	min-height:100%;
 	height:auto;
@@ -555,16 +558,19 @@ FLOATSWRAP
 	margin:0 18px 18px 0;
 	float:right;
 }
-.entry-title .blog-entry-title {
+.blog-entry-title {
 	margin-left: 40px;
+}
+.entry-title {
+	margin-left: 20px;
 }
 
 /*on single pages*/
 .single_blog_post {
 	margin:10px; /*JS - Changed from margin-top*/
 	line-height:1.5; /*JS*/
-	letter-spacing:0.3; /*JS*/
-	font-size:14; /*JS*/
+	letter-spacing:0.5; /*JS*/
+	font-size:1.5em; /*JS*/
 }
 #singleBlogPost .post_date, #singleBlogPost .post_cats, #singleBlogPost .post_tags {
 	border-right:1px solid #ccc;
