@@ -512,8 +512,8 @@ FLOATSWRAP
 	border:0px;
 }
 .page_post img {
-	padding:1px;
-	background: #D9F3FF;
+	padding:0px;
+/*	background: #D9F3FF;*/
 }
 /**  BLOG  **/
 /*on category pages*/
