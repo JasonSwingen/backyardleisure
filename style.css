@@ -510,6 +510,11 @@ FLOATSWRAP
 }
 /**  BLOG  **/
 /*on category pages*/
+.blog_post img {
+	padding: 0 0 0 40px;
+	border:0px;
+}
+
 .blog_post .date, .archive_post .date, .blogTag_post .date {
 	width:65px;
 	margin-right:10px;
@@ -550,6 +555,10 @@ FLOATSWRAP
 	margin:0 18px 18px 0;
 	float:right;
 }
+.entry-title .blog-entry-title {
+	margin-left: 40px;
+}
+
 /*on single pages*/
 .single_blog_post {
 	margin:10px; /*JS - Changed from margin-top*/
