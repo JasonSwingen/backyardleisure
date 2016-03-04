@@ -566,10 +566,10 @@ FLOATSWRAP
 
 /*on single pages*/
 .single_blog_post {
-	margin:10px; /*JS - Changed from margin-top*/
-	line-height:1.5; /*JS*/
-	letter-spacing:0.5; /*JS*/
-	font-size:1.5em; /*JS*/
+	margin:20px;
+	line-height:1.5;
+	letter-spacing:0.7;
+	font-size:1.2em;
 }
 #singleBlogPost .post_date, #singleBlogPost .post_cats, #singleBlogPost .post_tags {
 	border-right:1px solid #ccc;
