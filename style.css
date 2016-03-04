@@ -28,6 +28,7 @@ body {
 	background:url(http://spapoolbilliards.com/wp-content/uploads/Water_Background1.jpg) no-repeat top center fixed;
 }
 p {
+	font-size: 1.2em;
 	line-height: 1.5;
 }
 #pg_wrap {
@@ -507,17 +508,11 @@ FLOATSWRAP
 }
 /** GENERAL POST STYLING **/
 .page_post img, .blog_post img, .single_blog_post img {
-	padding:1px;
-	background:#D9F3FF;
-	border:1px solid #ffffff;
-}
-/**  BLOG  **/
-/*on category pages*/
-.blog_post img {
 	padding: 0 0 0 40px;
 	border:0px;
 }
-
+/**  BLOG  **/
+/*on category pages*/
 .blog_post .date, .archive_post .date, .blogTag_post .date {
 	width:65px;
 	margin-right:10px;
